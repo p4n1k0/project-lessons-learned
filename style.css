@@ -1,5 +1,9 @@
 body {
     background-color: rgb(253, 251, 251);
+    font-size: 16px;
+    font-family: monospace;
+    color: brown;
+
 }
 
 header {
@@ -12,6 +16,14 @@ header {
     padding: 4%;
     border: 3% solid black;
 }
+
+ul li {
+    line-height: 3%;
+}
+
+ol li {
+    line-height: 5%;
+} 
 
 #licoes_aprendidas {
     margin: 5%;
