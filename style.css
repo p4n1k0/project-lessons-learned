@@ -37,16 +37,21 @@ ol li {
     border: 6%;
 }
 
-article {
-    margin:5%;
-    padding: 3%;
-    border: 4%;
-    float:right
+div {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
 }
 
-section {
-    margin: 4%;
-    padding: 10%;
-    border: 5%;
-    float: left;
+
+#lado-esquerdo {     
+    width: 50px;
+    
+
+}
+
+#lado-direito {  
+    width: 60px;  
+   
+        
 }
