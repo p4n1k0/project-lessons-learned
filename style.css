@@ -6,3 +6,33 @@ header {
     position: fixed;
     top: 0;
 }
+
+#minha_foto {
+    margin: 3%;
+    padding: 4%;
+    border: 3% solid black;
+}
+
+#licoes_aprendidas {
+    margin: 5%;
+    padding: 5%;
+    border: 3%
+}
+
+#licoes_a_aprender {
+    margin: 5%;
+    padding: 4%;
+    border: 6%;
+}
+
+article {
+    margin:5%;
+    padding: 3%;
+    border: 4%
+}
+
+section {
+    margin: 4%;
+    padding: 10%;
+    border: 5%;
+}
