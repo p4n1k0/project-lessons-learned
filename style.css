@@ -18,11 +18,11 @@ header {
 }
 
 ul li {
-    line-height: 3%;
+    line-height:normal;
 }
 
 ol li {
-    line-height: 5%;
+    line-height: normal;
 } 
 
 #licoes_aprendidas {
@@ -40,11 +40,13 @@ ol li {
 article {
     margin:5%;
     padding: 3%;
-    border: 4%
+    border: 4%;
+    float:right
 }
 
 section {
     margin: 4%;
     padding: 10%;
     border: 5%;
+    float: left;
 }
