@@ -6,5 +6,7 @@ Este projeto trata-se de um simples portifólio de lições aprendidas no iníci
 ## Técnologias usadas
 
 Fundamentos:
-> Desenvolvido usando: CSS3, HTML5.
+> Desenvolvimento de uma página HTML estilizada com CSS.
+
+> Construção de código HTML, posicionamento e estilização CSS.
 

@@ -1,93 +1,122 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8">
-    <title>Lessons Learned</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <nav>
-      <header id="cabecalho"><h1 id="titulo"> Projeto       
-      </h1>
-      </header>
-    </nav>  
 
-      <img id="minha_foto" src="WhatsApp Image 2022-01-18 at 20.32.26.jpeg" alt="Eu">
+<head>
+  <meta charset="UTF-8">
+  <title>Lessons Learned</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
 
-      <ol id="licoes_aprendidas">
-          <li>Unix & Bash</li>
-          <li>Git</li>
-          <li>Github</li>
-          <li>Internet</li>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>Inteligência emocinal</li>
-          <li>Liderança</li>
-          <li>Autoconhecimento</li>
-          <li>Descansar</li>
-      </ol>
+<body>
+  <header class="header">
+    <nav class="container">
+      <div class="container">
+        <a href="#" class="navbar-brand text-uppercase font-weight-bold">
+          <h1 class="display-4">
+            Projeto
+          </h1>
+        </a>
+      </div>
+    </nav>
+  </header>
 
-      <ul id="licoes_a_aprender">
-          <li>Pensamento crítico</li>
-          <li>Criatividade</li>
-          <li>JavaScript</li>
-          <li>React</li>
-          <li>Metodologias ágeis</li>
-          <li>SQL</li>
-          <li>NodeJs</li>
-          <li>Python</li>
-          <li>Testes unitários</li>
-          <li>Testes assíncronos</li>
-      </ul>
 
-      <a href="https://www.google.com/" target="_blank">
-        google
-      </a>
+  <img id="minha_foto" src="WhatsApp Image 2022-01-18 at 20.32.26.jpeg" width="200px" alt="Eu">
 
-      <div>
-      <article class="lado-esquerdo">
-        <p>
+  <div class="lessons">
+    <h3>Lições Aprendidas</h3>
+    <ol id="licoes_aprendidas">
+      <li>Unix & Bash</li>
+      <li>Git</li>
+      <li>Github</li>
+      <li>Internet</li>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>Inteligência emocinal</li>
+      <li>Liderança</li>
+      <li>Autoconhecimento</li>
+      <li>Descansar</li>
+    </ol>
+  </div>
+
+  <div class="lessons-aprender">
+    <h3>Lições a aprender</h3>
+    <ul class="list-group" id="licoes_a_aprender">
+      <li class="list-group-item">Pensamento crítico</li>
+      <li class="list-group-item">Criatividade</li>
+      <li class="list-group-item">JavaScript</li>
+      <li class="list-group-item">React</li>
+      <li class="list-group-item">Metodologias ágeis</li>
+      <li class="list-group-item">SQL</li>
+      <li class="list-group-item">NodeJs</li>
+      <li class="list-group-item">Python</li>
+      <li class="list-group-item">Testes unitários</li>
+      <li class="list-group-item">Testes assíncronos</li>
+    </ul>
+  </div>
+  <div class="linkao">
+    <a href="https://www.google.com/" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">
+      google
+    </a>
+  </div>
+
+  <div class="left-side">
+    <article class="lado-esquerdo">
+      <p>
+        <u>
           Nesse início de aprendizado em Desenvolvimento Web, já pude obter muito <br>
           conhecimento e mão na massa para a conclusão dos desafios. No começo <br>
           tudo estava tranquilo na parte de unix, muito bom! Logo que entrou Git, <br>
-          começou a dar um nó no cerébro, porém com muita dedicação, atenção e <br> 
-          mentorias da Carolzita, tudo foi se encaxaindo. Hoje parece que é simples.<br>
+          começou a dar um nó no cerébro, porém com muita dedicação, atenção e <br>
+          mentorias da Carolzita, tudo foi se encaixando. Hoje parece que é simples.<br>
           Muito feliz por ter chegado nesse nível, ter aprendido a criar um repositório<br>
           e usar o git de maneira certa e eficaz.
-        </p>
-      </article>
-      </div>
+        </u>
+      </p>
+    </article>
+  </div>
 
-      <div>  
-      <section class="lado-direito">
-        <aside>
-          Sobre o UNIX, eu já possuia uma base boa, pois no curso que eu fazia de <br>
-           Tecnologia em Segurança da Informação, os professores pedem para instalarmos <br>
-          o Kali Linux ou alguma distribuição do ubuntu para ficarmos familiarizados.
-        </aside>
-      </section>
-      </div>
+  <div>
+    <section class="lado-direito">
+      <aside>
+        Sobre o <i>UNIX</i>, eu já possuia uma base boa, pois no curso que eu fazia de <br>
+        Tecnologia em Segurança da Informação, os professores pedem para instalarmos <br>
+        o Kali Linux ou alguma distribuição do ubuntu para ficarmos familiarizados.
+      </aside>
+    </section>
+  </div>
 
-      <table>
+  <div class="table-info">
+    <table class="table table-borderless table-dark">
+      <thead>
         <tr>
-          <th>Companhia</th>
-          <th>Contato</th>
-          <th>País</th>
+          <th scope="col">#</th>
+          <th scope="col">Companhia</th>
+          <th scope="col">Contato</th>
+          <th scope="col">País</th>
         </tr>
+      </thead>
+      <tbody>
         <tr>
+          <th scope="row">1</th>
           <td>Solteiro</td>
           <td>Celular</td>
           <td>Brasil</td>
         </tr>
         <tr>
+          <th scope="row">2</th>
           <td>Centro Empresarial</td>
           <td>George Bonfim</td>
           <td>Irlanda</td>
         </tr>
-      </table>
-      
-      <footer id="rodape">
-          
-      </footer>    
-  </body>
+      </tbody>
+    </table>
+  </div>
+
+  <footer id="rodape">
+
+  </footer>
+</body>
+
 </html>
